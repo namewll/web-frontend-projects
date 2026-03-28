@@ -1,0 +1,81 @@
+.mdiv{
+    width: 1000px;
+    height: 800px;
+    /* border: 1px solid red; */
+    margin: 80px auto;
+}
+.mp{
+    font-size: 30px;
+    font-weight: bold;
+}
+img{
+    width: 400px;
+    height: 600px;
+    margin-right: 20px;
+}
+.info{
+    width: 560px;
+    height: 600px;
+    /* border: 1px solid blue; */
+    float: right;
+}
+.ablue{
+    font-size: 25px;
+    color: dodgerblue;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.p1{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 30px;
+}
+.p1:hover{
+    color: orange;
+}
+.mdiv_low{
+    width: 1000px;
+    height: 300px;
+    margin: 50px auto;
+    /* border: 1px solid red; */
+}
+.div_img1,.div_img2,.div_img3,.div_img4{
+    width: 215px;
+    height: 100%;
+    /* border: 1px solid blue; */
+    float: left;
+    margin: 0px 15px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+.div_img1{
+    background-image: url('./img/抓娃娃.jpg');
+    background-size: 215px 300px;
+}
+.div_img2{
+    background-image: url('./img/死侍.jpg');
+    background-size: 215px 300px;
+}
+.div_img3{
+    background-image: url('./img/让子弹飞.jpg');
+    background-size: 215px 300px;
+}
+.div_img4{
+    background-image: url('./img/哥斯拉.jpg');
+    background-size: 215px 300px;
+}
+.p2{
+    width: 215px;
+    height: 300px;
+    position: relative;
+    top: -10px;
+    color: aliceblue;
+    opacity: 0;
+}
+.p2:hover{
+    opacity: 0.7;
+    background-color: rgb(0, 0, 0,0.5);
+}

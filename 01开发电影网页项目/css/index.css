@@ -1,0 +1,106 @@
+/* 轮播图部分 */
+.lbt,.lbt img{
+    width: 1100px;
+    height: 600px;
+    margin: 30px auto;
+}
+.lbt_div{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(128, 128, 128,0.4);
+    border-radius: 50%;
+    display: inline-block;
+    margin:0 30px;
+    position: relative;
+    top: -90px;
+    left: 400px;
+}
+/* 主体部分 */
+.main{
+    width: 1100px;
+    height: 600px;
+    /* 设置区域居中 */
+    margin: auto;
+    position: relative;
+    top: 80px;
+}
+.mp{
+    font-size: 30px;
+    font-weight: bold;
+    /* border: 1px solid yellow; */
+}
+.mdiv{
+    height: 420px;
+    /* border: 1px solid blue; */
+}
+.mdiv_img{
+    width: 300px;
+}
+/* 选择不同的标签进行相同的设置 */
+.mdiv_img,.mdiv_right{
+    height: 410px;
+    display: inline-block;
+}
+.mdiv_right{
+    width: 750px;
+    position: relative;
+    left: 40px;
+    font-size: 20px;
+    /* border: 1px solid orange; */
+}
+.mdiv_right a{
+    font-size: 25px;
+    color: dodgerblue;
+    font-weight: bold;
+}
+.mdiv_right:hover{
+    color: gold;
+}
+
+/* 下半部分 */
+.mdiv1{
+    width: 1100px;
+    height: 300px;
+    position: relative;
+    top: 10px;
+    /* border: 1px solid green; */
+    margin: auto;
+}
+
+.mdiv1 div,.mdiv1 div p{
+    margin: auto;
+    width: 200px;
+    height: 300px;
+    float: left;
+} 
+.mdiv1 div{
+    margin: 0 35px;
+    background-size: 200px 300px;
+}
+.mdiv1_img1{
+    background-image: url("../img/抓娃娃.jpg");
+}
+.mdiv1_img2{
+    background-image: url("../img/哥斯拉.jpg");
+}
+.mdiv1_img3{
+    background-image: url("../img/让子弹飞.jpg");
+}
+.mdiv1_img4{
+    background-image: url("../img/死侍.jpg");
+}
+.mdiv1 div p{
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+    line-height: 60px; 
+    margin: 0px; 
+    background-color: rgb(0, 0, 0,0); 
+    /* 整体透明 */
+    opacity: 0;
+}
+.mdiv1 div p:hover{
+    opacity: 0.8;
+    background-color: rgb(0, 0, 0,0.5); 
+}
